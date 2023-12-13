@@ -24,7 +24,6 @@ Route::post('store-mahasiswa',[MahasiswaController::class,'store'])->name('store
 Route::get('/read',[MahasiswaController::class,'read'])->name('read')->middleware('auth');
 Route::get('/delete',[MahasiswaController::class,'delete'])->name('delete')->middleware('auth');
 Route::get('/edit',[MahasiswaController::class,'edit'])->name('edit')->middleware('auth');
-Route::get('/tampil1',[MahasiswaController::class,'tampil1'])->name('tampil1')->middleware('auth');
 Route::get('/laravel', function () {
     return view('welcome');
 });
