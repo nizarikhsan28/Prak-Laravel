@@ -20,7 +20,6 @@
                     <x-slot name="content">
                         <x-dropdown-link :href="route('create')">{{__('CREATE')}}</x-dropdown-link>
                         <x-dropdown-link :href="route('read')">{{__('READ')}}</x-dropdown-link>
-                                                <x-dropdown-link :href="route('tampil1')">{{__('tampil1')}}</x-dropdown-link>
                     </x-slot>
                 </x-dropdown>
             </div>
